@@ -35,7 +35,7 @@ function start() {
         # Start php fpm
         ${PHP_FPM_EXEC} \
             --php-ini "${OPENSHIFT_PHP_DIR}/conf/php-fpm.ini" \
-            #--fpm-config "${OPENSHIFT_PHP_DIR}/conf/php-fpm.conf" \
+            --fpm-config "${OPENSHIFT_PHP_DIR}/conf/php-fpm.conf" \
             --prefix "${OPENSHIFT_PHP_DIR}"
 
         _is_running && echo "PHP-FPM instance is started"
