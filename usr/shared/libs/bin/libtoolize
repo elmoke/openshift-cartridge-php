@@ -4290,11 +4290,11 @@ func_require_seen_libtool ()
   pkgmacro_files="libtool.m4 ltargz.m4 ltdl.m4 ltoptions.m4 ltsugar.m4 ltversion.m4 lt~obsolete.m4"
 
   # Locations for important files:
-  prefix="${OPENSHIFT_PHP_LIBS_DIR}"
-  datadir="${OPENSHIFT_PHP_LIBS_DIR}/share"
-  pkgauxdir="${OPENSHIFT_PHP_LIBS_DIR}/share/libtool/build-aux"
-  pkgltdldir="${OPENSHIFT_PHP_LIBS_DIR}/share/libtool"
-  aclocaldir="${OPENSHIFT_PHP_LIBS_DIR}/share/aclocal"
+  prefix="/var/lib/openshift/5677da2389f5cf9c65000278/app-root/repo/php/compile/catridge/usr/libs"
+  datadir="/var/lib/openshift/5677da2389f5cf9c65000278/app-root/repo/php/compile/catridge/usr/libs/share"
+  pkgauxdir="/var/lib/openshift/5677da2389f5cf9c65000278/app-root/repo/php/compile/catridge/usr/libs/share/libtool/build-aux"
+  pkgltdldir="/var/lib/openshift/5677da2389f5cf9c65000278/app-root/repo/php/compile/catridge/usr/libs/share/libtool"
+  aclocaldir="/var/lib/openshift/5677da2389f5cf9c65000278/app-root/repo/php/compile/catridge/usr/libs/share/aclocal"
 
   # Allow the user to override the master libtoolize repository:
   if test -n "$_lt_pkgdatadir"; then

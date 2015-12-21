@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=${OPENSHIFT_PHP_LIBS_DIR}
+prefix=/var/lib/openshift/5677da2389f5cf9c65000278/app-root/repo/php/compile/catridge/usr/libs
 exec_prefix=${prefix}
 exec_prefix_set=no
 
