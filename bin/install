@@ -17,8 +17,6 @@ elif [ -d "${OPENSHIFT_PHP_DIR}/usr/php-${version}/" ]; then
 fi
 PHP_VERSION_DIR=${OPENSHIFT_PHP_DIR}/usr/php-${PHP_VERSION}
 
-echo ${PHP_VERSION}
-
 # Install/Update composer
 COMPOSER_PATH=${OPENSHIFT_PHP_DIR}/composer/bin/composer
 if [ -f "${COMPOSER_PATH}" ]; then
